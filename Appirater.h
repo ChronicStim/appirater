@@ -47,8 +47,8 @@ extern NSString *const kAppiraterReminderRequestDate;
 /*
  Place your Apple generated software id here.
  */
-#define APPIRATER_APP_ID				301377083
 
+#define APPIRATER_APP_ID                [[[NSBundle mainBundle] infoDictionary] valueForKey:@"AppReferenceID"]
 
 /*
  Your localized app's name.
@@ -64,7 +64,7 @@ extern NSString *const kAppiraterReminderRequestDate;
  This is the message your users will see once they've passed the day+launches
  threshold.
  */
-#define APPIRATER_LOCALIZED_MESSAGE     NSLocalizedString(@"If you enjoy using %@, would you mind taking a moment to rate it? It won't take more than a minute. Thanks for your support!", nil)
+#define APPIRATER_LOCALIZED_MESSAGE     NSLocalizedString(@"Your great ratings are what drive new features. If %@ has helped you better manage your chronic pain, would you mind taking a moment to rate it?", nil)
 #define APPIRATER_MESSAGE				[NSString stringWithFormat:APPIRATER_LOCALIZED_MESSAGE, APPIRATER_APP_NAME]
 
 /*
@@ -118,7 +118,7 @@ extern NSString *const kAppiraterReminderRequestDate;
  a significant event, call the method:
  [Appirater userDidSignificantEvent:];
  */
-#define APPIRATER_SIG_EVENTS_UNTIL_PROMPT	-1	// integer
+#define APPIRATER_SIG_EVENTS_UNTIL_PROMPT	20	// integer
 
 /*
  Once the rating alert is presented to the user, they might select
