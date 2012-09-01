@@ -1,4 +1,23 @@
-"Your great ratings are what drive new features. If %@ has helped you better manage your chronic pain, would you mind taking a moment to rate it?" = "Your great ratings are what drive new features. If %@ has helped you better manage your chronic pain, would you mind taking a moment to rate it?";
-"Rate %@" = "Rate %@";
+/* InAppSettingsKit */
+"Mail not configured" = "Mail not configured";
+
 "No, Thanks" = "No, Thanks";
+
+/* InAppSettingsKit */
+"OK" = "OK";
+
+/* Localized Page Count String */
+"Page %d of %d" = "Page %1$d of %2$d";
+
+"Rate %@" = "Rate %@";
+
 "Remind me later" = "Remind me later";
+
+/* No comment provided by engineer. */
+"Settings" = "Settings";
+
+/* InAppSettingsKit */
+"This device is not configured for sending Email. Please configure the Mail settings in the Settings app." = "This device is not configured for sending Email. Please configure the Mail settings in the Settings app.";
+
+"Your great ratings are what drive new features. If %@ has helped you better manage your chronic pain, would you mind taking a moment to rate it?" = "Your great ratings are what drive new features. If %@ has helped you better manage your chronic pain, would you mind taking a moment to rate it?";
+
