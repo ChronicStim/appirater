@@ -125,7 +125,7 @@ extern NSString *const kAppiraterReminderRequestDate;
  'Remind me later'. This value specifies how long (in days) Appirater
  will wait before reminding them.
  */
-#define APPIRATER_TIME_BEFORE_REMINDING		1	// double
+#define APPIRATER_TIME_BEFORE_REMINDING		3	// double
 
 /*
  'YES' will show the Appirater alert everytime. Useful for testing how your message
