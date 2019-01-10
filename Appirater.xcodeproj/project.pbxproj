@@ -10,6 +10,7 @@
 		29D62AC621E7D193000CE65F /* AppiraterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D62AC121E7D193000CE65F /* AppiraterDelegate.h */; };
 		29D62AC721E7D193000CE65F /* Appirater.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D62AC221E7D193000CE65F /* Appirater.h */; };
 		29D62AC821E7D193000CE65F /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D62AC321E7D193000CE65F /* Appirater.m */; };
+		29D62ACB21E7EA7B000CE65F /* SCLAlertView_Objective_C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D62ACA21E7EA7B000CE65F /* SCLAlertView_Objective_C.framework */; };
 		5105C13E5BA6D40A42A01BC1 /* Pods_Appirater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B8CACB3F8FB2FD9A1F5B402 /* Pods_Appirater.framework */; };
 		8272126A1EB3640400DBFBEB /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8272126C1EB3640400DBFBEB /* AppiraterLocalizable.strings */; };
 /* End PBXBuildFile section */
@@ -21,6 +22,7 @@
 		29D62AC221E7D193000CE65F /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = SOURCE_ROOT; };
 		29D62AC321E7D193000CE65F /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = SOURCE_ROOT; };
 		29D62AC421E7D193000CE65F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		29D62ACA21E7EA7B000CE65F /* SCLAlertView_Objective_C.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SCLAlertView_Objective_C.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		827211D31EB3633600DBFBEB /* Appirater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appirater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8272126B1EB3640400DBFBEB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		8272126D1EB3640800DBFBEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29D62ACB21E7EA7B000CE65F /* SCLAlertView_Objective_C.framework in Frameworks */,
 				5105C13E5BA6D40A42A01BC1 /* Pods_Appirater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,6 +117,7 @@
 		D32EFA5F6D941414886EA95B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				29D62ACA21E7EA7B000CE65F /* SCLAlertView_Objective_C.framework */,
 				0B8CACB3F8FB2FD9A1F5B402 /* Pods_Appirater.framework */,
 			);
 			name = Frameworks;
