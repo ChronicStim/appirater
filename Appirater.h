@@ -35,8 +35,9 @@
  */
 
 #import <Foundation/Foundation.h>
-#import "AppiraterDelegate.h"
 #import <StoreKit/StoreKit.h>
+#import <SCLAlertView_Objective_C/SCLAlertView-Objective-C-umbrella.h>
+#import "AppiraterDelegate.h"
 
 extern NSString *const kAppiraterFirstUseDate;
 extern NSString *const kAppiraterUseCount;
@@ -87,10 +88,10 @@ extern NSString *const kAppiraterReminderRequestDate;
 
 @interface Appirater : NSObject <SKStoreProductViewControllerDelegate> {
 
-	SCLAlertView		*_ratingAlert;
+	SCLAlertView	__weak	*_ratingAlert;
 }
 
-@property(nonatomic, strong) SCLAlertView *ratingAlert;
+@property(nonatomic, weak) SCLAlertView *ratingAlert;
 @property(nonatomic) BOOL openInAppStore;
 #if __has_feature(objc_arc_weak)
 @property(nonatomic, weak) NSObject <AppiraterDelegate> *delegate;
