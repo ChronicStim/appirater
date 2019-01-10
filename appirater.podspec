@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.resource_bundles	= {'Appirater' => ['*.lproj']}
   s.public_header_files = 'ATNavBarButton/*.h'
   s.frameworks          = 'CFNetwork', 'SystemConfiguration'
-  s.dependency			= 'SCLAlertView-Objective-C', '>=2.0'
+  s.dependency			'SCLAlertView-Objective-C', '>=2.0'
   s.weak_frameworks		= 'StoreKit'
 end
