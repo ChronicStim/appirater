@@ -1,0 +1,4 @@
+[submodule "Submodules/SCLAlertView"]
+	path = Submodules/SCLAlertView
+	url = git@github.com:ChronicStim/SCLAlertView.git
+	branch = CPT_version_4_0_x
