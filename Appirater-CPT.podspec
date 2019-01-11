@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name        = 'Appirater'
-  s.version     = '2.3.0'
+  s.name        = 'Appirater-CPT'
+  s.version     = '1.0.0'
   s.summary     = 'A utility that reminds your iPhone apps users to review the app.'
   s.license  = { :type => 'MIT', :text => 'Copyright 2017. Arash Payan. This library is distributed under the terms of the MIT/X11.' }
 
@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.resource_bundles	= {'Appirater' => ['*.lproj']}
   s.public_header_files = 'ATNavBarButton/*.h'
   s.frameworks          = 'CFNetwork', 'SystemConfiguration'
-  s.dependency			'SCLAlertView-Objective-C', '>=2.0'
+  s.dependency			'SCLAlertView-CPT', '10.0.0'
   s.weak_frameworks		= 'StoreKit'
 end

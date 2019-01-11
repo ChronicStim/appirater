@@ -36,8 +36,10 @@
 
 #import <Foundation/Foundation.h>
 #import <StoreKit/StoreKit.h>
-#import <SCLAlertView_Objective_C/SCLAlertView-Objective-C-umbrella.h>
 #import "AppiraterDelegate.h"
+
+/* Loading SCLAlertView Framework */
+#import <SCLAlertViewFramework/SCLAlertView.h>
 
 extern NSString *const kAppiraterFirstUseDate;
 extern NSString *const kAppiraterUseCount;
