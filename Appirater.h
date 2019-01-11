@@ -39,7 +39,7 @@
 #import "AppiraterDelegate.h"
 
 /* Loading SCLAlertView Framework */
-#import <SCLAlertViewFramework/SCLAlertView.h>
+#import <SCLAlertView_CPT/SCLAlertView-CPT-umbrella.h>
 
 extern NSString *const kAppiraterFirstUseDate;
 extern NSString *const kAppiraterUseCount;

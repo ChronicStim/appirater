@@ -1,0 +1,22 @@
+PODS:
+  - SCLAlertView-CPT (10.0.0)
+
+DEPENDENCIES:
+  - SCLAlertView-CPT (from `https://github.com/ChronicStim/SCLAlertView.git`, branch `CPT_version_4_0_x`)
+
+EXTERNAL SOURCES:
+  SCLAlertView-CPT:
+    :branch: CPT_version_4_0_x
+    :git: https://github.com/ChronicStim/SCLAlertView.git
+
+CHECKOUT OPTIONS:
+  SCLAlertView-CPT:
+    :commit: c348d9a19624a04414536f667f2e4c59d6e63af9
+    :git: https://github.com/ChronicStim/SCLAlertView.git
+
+SPEC CHECKSUMS:
+  SCLAlertView-CPT: a85e554ace5a93fda35a02b3da4641ecdb6eeaeb
+
+PODFILE CHECKSUM: 62399e9b6858ac9cc295ad7d206518d5c5711bff
+
+COCOAPODS: 1.5.3

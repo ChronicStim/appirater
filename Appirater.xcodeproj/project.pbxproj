@@ -10,6 +10,7 @@
 		29D62AC621E7D193000CE65F /* AppiraterDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D62AC121E7D193000CE65F /* AppiraterDelegate.h */; };
 		29D62AC721E7D193000CE65F /* Appirater.h in Headers */ = {isa = PBXBuildFile; fileRef = 29D62AC221E7D193000CE65F /* Appirater.h */; };
 		29D62AC821E7D193000CE65F /* Appirater.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D62AC321E7D193000CE65F /* Appirater.m */; };
+		456DB06ECCF69B2420C8698C /* Pods_Appirater.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CD7D1B71D188251CEB53C01 /* Pods_Appirater.framework */; };
 		8272126A1EB3640400DBFBEB /* AppiraterLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8272126C1EB3640400DBFBEB /* AppiraterLocalizable.strings */; };
 /* End PBXBuildFile section */
 
@@ -18,6 +19,7 @@
 		29D62AC221E7D193000CE65F /* Appirater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appirater.h; sourceTree = SOURCE_ROOT; };
 		29D62AC321E7D193000CE65F /* Appirater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Appirater.m; sourceTree = SOURCE_ROOT; };
 		29D62AC421E7D193000CE65F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		2CD7D1B71D188251CEB53C01 /* Pods_Appirater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Appirater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		827211D31EB3633600DBFBEB /* Appirater.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Appirater.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8272126B1EB3640400DBFBEB /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		8272126D1EB3640800DBFBEB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
@@ -52,6 +54,8 @@
 		8272128A1EB3642B00DBFBEB /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/AppiraterLocalizable.strings; sourceTree = "<group>"; };
 		8272128B1EB3642D00DBFBEB /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/AppiraterLocalizable.strings"; sourceTree = "<group>"; };
 		8272128C1EB3642E00DBFBEB /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/AppiraterLocalizable.strings"; sourceTree = "<group>"; };
+		AA20E8F4577AB08701F14643 /* Pods-Appirater.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appirater.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Appirater/Pods-Appirater.debug.xcconfig"; sourceTree = "<group>"; };
+		B7FE3536504F074A608AE436 /* Pods-Appirater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Appirater.release.xcconfig"; path = "Pods/Target Support Files/Pods-Appirater/Pods-Appirater.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +63,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456DB06ECCF69B2420C8698C /* Pods_Appirater.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		165DE378FEC9DDDCB6FF975A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CD7D1B71D188251CEB53C01 /* Pods_Appirater.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		29D62ABF21E7D12F000CE65F /* Appirater */ = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +90,22 @@
 			path = Appirater;
 			sourceTree = "<group>";
 		};
+		2DA0443AD485AAF3B5061D1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA20E8F4577AB08701F14643 /* Pods-Appirater.debug.xcconfig */,
+				B7FE3536504F074A608AE436 /* Pods-Appirater.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		827211C91EB3633600DBFBEB = {
 			isa = PBXGroup;
 			children = (
 				29D62ABF21E7D12F000CE65F /* Appirater */,
 				827211D41EB3633600DBFBEB /* Products */,
+				2DA0443AD485AAF3B5061D1A /* Pods */,
+				165DE378FEC9DDDCB6FF975A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 827211DB1EB3633600DBFBEB /* Build configuration list for PBXNativeTarget "Appirater" */;
 			buildPhases = (
+				B803781CE36F63AD5F7A2E4D /* [CP] Check Pods Manifest.lock */,
 				827211CE1EB3633600DBFBEB /* Sources */,
 				827211CF1EB3633600DBFBEB /* Frameworks */,
 				827211D01EB3633600DBFBEB /* Headers */,
@@ -201,6 +226,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B803781CE36F63AD5F7A2E4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Appirater-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		827211CE1EB3633600DBFBEB /* Sources */ = {
@@ -363,6 +413,7 @@
 		};
 		827211DC1EB3633600DBFBEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA20E8F4577AB08701F14643 /* Pods-Appirater.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
@@ -383,6 +434,7 @@
 		};
 		827211DD1EB3633600DBFBEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7FE3536504F074A608AE436 /* Pods-Appirater.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;

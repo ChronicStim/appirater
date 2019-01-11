@@ -1,0 +1,29 @@
+{
+  "name": "SCLAlertView-CPT",
+  "version": "10.0.0",
+  "summary": "Version of SCLAlertView with specifics for CPT Project",
+  "homepage": "https://github.com/ChronicStim/SCLAlertView.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Diogo Autilio": "diautilio@gmail.com",
+    "Bob Kutschke": "bob.kutschke@chronicstimulation.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox",
+    "Accelerate",
+    "CoreGraphics"
+  ],
+  "source": {
+    "git": "https://github.com/ChronicStim/SCLAlertView.git",
+    "branch": "CPT_version_4_0_x"
+  },
+  "source_files": "SCLAlertView/*",
+  "requires_arc": true
+}

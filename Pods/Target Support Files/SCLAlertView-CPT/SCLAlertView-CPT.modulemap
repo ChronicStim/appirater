@@ -1,0 +1,6 @@
+framework module SCLAlertView_CPT {
+  umbrella header "SCLAlertView-CPT-umbrella.h"
+
+  export *
+  module * { export * }
+}
